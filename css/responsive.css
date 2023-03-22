@@ -1,0 +1,769 @@
+@media only screen and (max-width: 514px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav_List {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 500px;
+        transition: all 0.4s ease-out;
+    }
+
+    .nav_List li {
+        padding: 10px 10px;
+    }
+
+    .right_nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstsection {
+        height: 70vh;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;;
+    }
+
+    .text-big {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .text-small {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .secondHalf {
+        width: 50%;
+    }
+
+    .secondHalf img {
+        width: 195px;
+        height: 185px;
+        margin: 5px auto;
+    }
+
+    .bt-naruto {
+        width: 150px;
+        padding: 6px 10px;
+        margin: 6px 3px;
+        border-radius: 10px;
+    }
+
+    /* NavBar buttons */
+    .btn-small {
+        border-radius: 10px;
+        padding: 10px 0px;
+        margin: 5px 0px;
+        width: 150px;
+    }
+
+    #search {
+        width: 150px;
+        text-align: center;
+    }
+
+    .h-nav {
+        height: 70px;
+    }
+
+    .v-class {
+        visibility: hidden;
+    }
+
+    /* Cards */
+    .body {
+        height: 140%;
+    }
+
+    .body>h1 {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+
+    .bd-container {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        /* margin-bottom: 20px; */
+    }
+
+    .card {
+        height: 300px;
+        margin: 20px 25px;
+    }
+
+    .card-img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .intro {
+        height: 50px;
+        width: 300px;
+        /* padding: 0px 10px; */
+        bottom: 50px;
+    }
+
+    .intro>h1 {
+        margin: 2px;
+        font-size: 22px;
+    }
+
+    .intro>p {
+        margin-left: 2px;
+        font-size: 15px;
+    }
+
+    .card:hover .intro {
+        height: 83px;
+        bottom: 93px;
+    }
+
+    /* DUB/SUB page */
+    .split.left {
+        background: url('/img/dm2-tablet.jpg') center/ cover no-repeat;
+    }
+
+    .split.right {
+        background: url('/img/AOT-tablet.jpg') center/ cover no-repeat;
+    }
+
+    .page-three-h1 {
+        font-size: 1.2rem;
+    }
+
+    .page-three-btn {
+        font-size: 1rem;
+        width: 8rem;
+        padding: 0.5rem;
+        font-weight: 300;
+    }
+
+    /* Request form */
+    .page-four-container {
+        margin: 0px 0px;
+        box-sizing: content-box;
+        padding: 0px 0px;
+    }
+
+    .request-form {
+        grid-template-columns: 1fr;
+        max-width: 300px;
+    }
+
+    .form-left {
+        height: 200px;
+    }
+
+    .form-h2 {
+        position: relative;
+        padding: 0 0 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .field{
+        padding: 15px 30px;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    textarea {
+        min-height: 100px;
+    }
+}
+
+@media only screen and (min-width: 515px) and (max-width: 690px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav_List {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 500px;
+        transition: all 0.4s ease-out;
+    }
+
+    .nav_List li {
+        padding: 10px 10px;
+    }
+
+    .right_nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstsection {
+        height: 70vh;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .text-big {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .text-small {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .secondHalf {
+        width: 50%;
+    }
+
+    .secondHalf img {
+        width: 250px;
+        height: 250px;
+        margin: 6px auto;
+    }
+
+    .bt-naruto {
+        padding: 6px 10px;
+        margin: 6px 3px;
+        border-radius: 10px;
+    }
+
+    /* NavBar buttons */
+    .btn-small {
+        border-radius: 10px;
+        padding: 10px 0px;
+        margin: 5px 0px;
+        width: 150px;
+    }
+
+    #search {
+        width: 150px;
+        text-align: center;
+    }
+
+    .h-nav {
+        height: 70px;
+    }
+
+    .v-class {
+        visibility: hidden;
+    }
+
+    /* Cards */
+    .body {
+        height: 130%;
+    }
+
+    .body>h1 {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+
+    .bd-container {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        /* margin-bottom: 20px; */
+    }
+
+    .card {
+        height: 300px;
+        margin: 20px 25px;
+    }
+
+    .card-img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .intro {
+        height: 40px;
+        width: 300px;
+        /* padding: 0px 10px; */
+        bottom: 40px;
+    }
+
+    .intro>h1 {
+        margin: 2px;
+        font-size: 20px;
+    }
+
+    .intro>p {
+        margin-left: 2px;
+        font-size: 14px;
+    }
+
+    .card:hover .intro {
+        height: 60px;
+        bottom: 70px;
+    }
+
+    /* DUB/SUB page */
+    .split.left {
+        background: url('/img/dm2-tablet.jpg') center/ cover no-repeat;
+    }
+
+    .split.right {
+        background: url('/img/AOT-tablet.jpg') center/ cover no-repeat;
+    }
+
+    .page-three-h1 {
+        font-size: 1.2rem;
+    }
+
+    .page-three-btn {
+        font-size: 1rem;
+        width: 8rem;
+        padding: 0.5rem;
+        font-weight: 300;
+    }
+
+    /* Request form */
+    .page-four-container {
+        margin: 0px 0px;
+        box-sizing: content-box;
+        padding: 0px 0px;
+    }
+
+    .request-form {
+        grid-template-columns: 1fr;
+        max-width: 380px;
+    }
+
+    .form-left {
+        height: 200px;
+    }
+
+    .form-h2 {
+        position: relative;
+        padding: 0 0 10px;
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+
+    .field{
+        padding: 15px 20px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 691px) and (max-width: 840px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav_List {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 500px;
+        transition: all 0.4s ease-out;
+    }
+
+    .nav_List li {
+        padding: 10px 10px;
+    }
+
+    .right_nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .text-big {
+        font-size: 32px;
+        font-weight: bolder;
+    }
+
+    .secondHalf {
+        width: 50%;
+    }
+
+    .secondHalf img {
+        width: 400px;
+        height: 350px;
+        margin: 10px auto;
+    }
+
+    .btn-small {
+        border-radius: 10px;
+        padding: 10px 0px;
+        margin: 5px 0px;
+        width: 150px;
+    }
+
+    #search {
+        width: 150px;
+        text-align: center;
+    }
+
+    .h-nav {
+        height: 70px;
+    }
+
+    .v-class {
+        visibility: hidden;
+    }
+
+    /* Cards */
+    .body {
+        height: 40%;
+    }
+
+    .card {
+        height: 165px;
+        margin: 20px 25px;
+    }
+
+    .card-img {
+        height: 165px;
+        width: 165px;
+    }
+
+    .intro {
+        height: 20px;
+        width: 165px;
+        /* padding: 0px 10px; */
+        bottom: 30px;
+    }
+
+    .intro>h1 {
+        margin: 2px;
+        font-size: 10px;
+    }
+
+    .intro>p {
+        margin-left: 2px;
+        font-size: 7px;
+    }
+
+    .card:hover .intro {
+        height: 30px;
+        bottom: 43px;
+    }
+
+    /* DUB/SUB page */
+    .split.left {
+        background: url('/img/dm2-tablet.jpg') center/ cover no-repeat;
+    }
+
+    .split.right {
+        background: url('/img/AOT-tablet.jpg') center/ cover no-repeat;
+    }
+
+    .page-three-h1 {
+        font-size: 1.6rem;
+    }
+
+    .page-three-btn {
+        font-size: 1rem;
+        width: 8rem;
+        padding: 0.5rem;
+        font-weight: 300;
+    }
+
+    /* Request form */
+    .page-four-container {
+        margin: 0px 0px;
+        box-sizing: content-box;
+        padding: 0px 0px;
+    }
+
+    .request-form {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
+    .form-left {
+        height: 200px;
+    }
+
+    .form-h2 {
+        position: relative;
+        padding: 0 0 10px;
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+
+    .field{
+        padding: 20px 20px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 841px) and (max-width: 1214px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav_List {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 500px;
+        transition: all 0.4s ease-out;
+    }
+
+    .nav_List li {
+        padding: 10px 10px;
+    }
+
+    .right_nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .secondHalf {
+        width: 50%;
+    }
+
+    .secondHalf img {
+        width: 450px;
+        height: 400px;
+        margin: 10px auto;
+    }
+
+    .btn-small {
+        border-radius: 10px;
+        padding: 10px 0px;
+        margin: 5px 0px;
+        width: 150px;
+    }
+
+    #search {
+        width: 150px;
+        text-align: center;
+    }
+
+    .h-nav {
+        height: 70px;
+    }
+
+    .v-class {
+        visibility: hidden;
+    }
+
+    .body {
+        height: 55%;
+    }
+
+    .card {
+        height: 200px;
+        margin: 20px 25px;
+    }
+
+    .card-img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .intro {
+        height: 30px;
+        width: 200px;
+        /* padding: 0px 10px; */
+        bottom: 40px;
+    }
+
+    .intro>h1 {
+        margin: 3px;
+        font-size: 13px;
+    }
+
+    .intro>p {
+        margin-left: 3px;
+        font-size: 10px;
+    }
+
+    .card:hover .intro {
+        height: 50px;
+        bottom: 70px;
+    }
+
+    .page-three-h1 {
+        font-size: 2rem;
+    }
+
+    .page-three-btn {
+        font-size: 1rem;
+        width: 10rem;
+        padding: 1.5rem;
+        font-weight: 300;
+    }
+
+    .page-four-container {
+        margin: 0px 0px;
+        box-sizing: content-box;
+        padding: 0px 0px;
+    }
+
+    .request-form {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
+    .form-left {
+        height: 200px;
+    }
+
+    .form-h2 {
+        position: relative;
+        padding: 0 0 10px;
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+
+    .field{
+        padding: 20px 20px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 1215px) and (max-width: 1639px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav_List {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 500px;
+        transition: all 0.4s ease-out;
+    }
+
+    .nav_List li {
+        padding: 10px 10px;
+    }
+
+    .right_nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .secondHalf {
+        width: 50%;
+    }
+
+    .secondHalf img {
+        width: 450px;
+        height: 400px;
+        margin: 10px auto;
+    }
+
+    .btn-small {
+        border-radius: 10px;
+        padding: 10px 0px;
+        margin: 5px 0px;
+        width: 150px;
+    }
+
+    #search {
+        width: 150px;
+        text-align: center;
+    }
+
+    .h-nav {
+        height: 70px;
+    }
+
+    .v-class {
+        visibility: hidden;
+    }
+
+    .page-three-h1 {
+        font-size: 2.5rem;
+    }
+
+    .page-three-btn {
+        font-size: 1rem;
+        width: 15rem;
+        padding: 1.5rem;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (min-width: 1640px) and (max-width: 1875px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .nav_List {
+        width: 60%;
+    }
+
+    .right_nav {
+        width: 40%;
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Login</title>
+    <script src="https://kit.fontawesome.com/6eb13e6620.js" crossorigin="anonymous">
+	</script>
+	<script>
+	function validateform(){  
+	var email=document.myform.email.value;  
+	var password=document.myform.password.value;  
+  
+	if (email==null || email==""){  
+		alert("Email can't be blank");  
+		return false;  
+	}
+	else if(password.length<6){  
+		alert("Password must be at least 6 characters long.");  
+		return false;  
+		}  
+	}  
+	</script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 480px) {
+
+            /* For mobile phones: */
+            .bg-img {
+                background: url(Z:/iiTzGandhi/Login/'bg3.png');
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .conatiner {
+                width: 60%;
+                backdrop-filter: blur(3px);
+            }
+
+            .conatiner h1 {
+                font-size: 25px;
+            }
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+            .conatiner {
+                width: 55%;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .conatiner {
+                width: 40%;
+            }
+        }
+
+        @media (min-width: 1025px) and (max-width: 1200px) {
+            .conatiner {
+                width: 30%;
+            }
+        }
+
+        @media (min-width: 1201px) {
+            .conatiner {
+                width: 22%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="conatiner">
+		<form name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" >
+            <h1>MEMBER LOGIN</h1>
+            <div class="box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" id="password" required placeholder="Enter Your Password">
+            </div>
+            <button class="btn">LOG IN</button><br>
+            <span>Are you a new user?</span><a href="Z:/iiTzGandhi/SignUp/SignUp.html">Create a account</a>
+    </form>    </div>
+    </div>
+	
+</body>
+
+</html>

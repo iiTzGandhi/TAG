@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Anime verse</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav">
+        <ul class="nav_List v-class">
+            <div class="logo"><img src="./img/logo.png" alt="AnimeVerse"></div>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#popular">POPULAR</a></li>
+            <li><a href="#new-released">NEW RELEASED</a></li>
+            <li><a href="#dub-sub">DUB/SUB</a></li>
+            <li><a href="#request-anime">REQUEST ANIME</a></li>
+        </ul>
+        <div class="right_nav v-class">
+            <input type="text" name="search" id="search" placeholder="Search here">
+            <button class="btn btn-nav btn-small">Search</button>
+            <a href="./Login/index.html"><button class="btn-ln btn-nav btn-small">Login</button></a>
+            <a href="./SignUp/SignUp.html"><button class="btn-sp btn-nav btn-small">Signup</button></a>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="firstsection background">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">New Announcement</p>
+                <p class="text-small">Naruto website revealed that vital information regarding the series is all set to
+                    be revealed at the Boruto and Naruto Super Stage event in <font-width style="font-weight:bold;">
+                        December 17, 2022 at Jump Festa 2023.</font-width>
+                </p>
+                <div class="buttons">
+                    <button class="btn bt-naruto">Subscribe</button>
+                    <button class="btn bt-naruto">Watch now</button>
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="./img/naruto.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="body firstsection background" id="popular">
+        <h1>POPULAR ANIME</h1>
+        <div class="bd-container">
+            <!-- CARD FIRST HTML -->
+            <div class="card">
+                <img src="./img/op.jpg" alt="One Piece" class="card-img">
+                <div class="intro">
+                    <h1>Anime: One Piece</h1>
+                    <p>Watch all seasons available in DUB/SUB</p>
+                </div>
+            </div>
+            <!-- CARD SECOND HTML -->
+            <div class="card">
+                <img src="./img/ka.jpg" alt="Naruto" class="card-img">
+                <div class="intro">
+                    <h1>Anime: Naruto</h1>
+                    <p>Watch all seasons available in DUB/SUB</p>
+                </div>
+            </div>
+            <!-- CARD THIRD HTML -->
+            <div class="card">
+                <img src="./img/db.jpg" alt="Dragon Ball Z" class="card-img">
+                <div class="intro">
+                    <h1>Anime: Dragon Ball Z</h1>
+                    <p>Watch all seasons available in DUB/SUB</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="body2 body firstsection background" id="new-released">
+        <h1>NEW RELEASED</h1>
+        <div class="bd-container">
+            <!-- CARD FIRST HTML -->
+            <div class="card">
+                <img src="./img/jujustu.png" alt="Jujutsu Kaisen" class="card-img">
+                <div class="intro">
+                    <h1>Anime: Jujutsu Kaisen</h1>
+                    <p>Watch all seasons available in DUB/SUB</p>
+                </div>
+            </div>
+            <!-- CARD SECOND HTML -->
+            <div class="card">
+                <img src="./img/onepunchman.jpg" alt="One Punch Man" class="card-img">
+                <div class="intro">
+                    <h1>Anime: One Punch Man</h1>
+                    <p>Watch all seasons available in DUB/SUB</p>
+                </div>
+            </div>
+            <!-- CARD THIRD HTML -->
+            <div class="card">
+                <img src="./img/tokyorevenge.jpg" alt="Tokyo Revengers" class="card-img">
+                <div class="intro">
+                    <h1>Anime: Tokyo Revengers</h1>
+                    <p>Watch all seasons available in DUB/SUB</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page-three-box" id="dub-sub">
+        <div class="split left">
+            <h1 class="page-three-h1">ANIME WITH SUB</h1>
+            <a href="#" class="page-three-btn page-three-btn1">Watch Now</a>
+        </div>
+        <div class="split right">
+            <h1 class="page-three-h1">ANIME IN DUB</h1>
+            <a href="#" class="page-three-btn page-three-btn2">Watch Now</a>
+        </div>
+    </div>
+
+    <div class="page-four-container" id="request-anime">
+        <div class="request-form">
+            <div class="form-left"></div>
+            <div class="form-right">
+                <h2 class="form-h2">Request Here</h2>
+                <input type="text" class="field" placeholder="Your Name">
+                <input type="text" class="field" placeholder="Your Email">
+                <input type="text" class="field" placeholder="Phone Number">
+                <textarea name="description" class="field" placeholder="Description"></textarea>
+                <button class="request-btn">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-copyright">
+            Copyright &copy; 2023 iiTzGandhi - All right reserved
+        </p>
+    </footer>
+
+    <script src="./js/hamburger.js"></script>
+    <script src="./js/sub_dub.js"></script>
+    <script src="./js/sub_dub.js"></script>
+</body>
+
+</html>
